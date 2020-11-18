@@ -213,3 +213,24 @@ Q43. What is the recommended size for Redis keys?
     - short
     - medium
     - a single bit <<<<----May be
+    
+Q44. You need to generate a unique,sequential identifier for each value stored in a Redis Cluster. What do you do ?
+
+    - Implement a list object to generate a value
+    - Use the GUID keyword to generate a value <<<<----May Be
+    - Use the INCR keyowrd to generate a value
+    - Implement a SortedSet object to generate a value
+
+Q45. You want to return a list of all elements in two Redis Sets, Which keyword do you use?
+
+    - returnall
+    - sismember
+    - sunion <<<<----May be
+    - smembers
+
+Q46. To bulk load data into Amazon Neptune, what do you do?
+
+    - Upload data into S3 bucket VPC endpoint, Use the Neptune loader to load from S3 into your Neptune instances.<<<<----Correct
+    - Add data to a Kinesis stream, and use the Neptune loader to load from S3 into your Neptune instances.
+    - Add data to Kinesis stream and create a Kinesis stream VPC endpoint. Use the Neptune loaderto oad from s3 into your Neptune instances.
+    - Upload data to S3. Use the Neptune loader to load from S3 into your Neptune instance.
